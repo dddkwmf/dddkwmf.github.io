@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>&#x6587;&#x660E;&#x5206;&#x67E5;&#x8BE2;</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">&#x665A;&#x70B9;&#x540D; · &#x6587;&#x660E;&#x5206;</p>
+        <h1>&#x5B66;&#x751F;&#x672C;&#x4EBA;&#x8BB0;&#x5F55;&#x67E5;&#x8BE2;</h1>
+        <p class="subtle">&#x8F93;&#x5165;&#x5B8C;&#x6574;&#x5B66;&#x53F7;&#x540E;&#xFF0C;&#x4EC5;&#x663E;&#x793A;&#x672C;&#x4EBA;&#x7684;&#x6587;&#x660E;&#x5206;&#x548C;&#x6263;&#x5206;&#x660E;&#x7EC6;&#x3002;&#x9875;&#x9762;&#x4E0D;&#x5C55;&#x793A;&#x5168;&#x73ED;&#x540D;&#x5355;&#x3002;</p>
+      </div>
+      <div class="hero-card">
+        <span>&#x8D77;&#x7B97;&#x65E5;&#x671F;</span>
+        <strong>2026&#x5E74;7&#x6708;6&#x65E5;</strong>
+        <small id="updated-at">&#x7B49;&#x5F85;&#x6570;&#x636E;&#x63A5;&#x53E3;</small>
+      </div>
+    </section>
+
+    <section class="panel unlock">
+      <label for="student-id">&#x5B8C;&#x6574;&#x5B66;&#x53F7;</label>
+      <div class="unlock-row">
+        <input id="student-id" type="text" inputmode="numeric" autocomplete="off" placeholder="&#x8BF7;&#x8F93;&#x5165;&#x81EA;&#x5DF1;&#x7684;&#x5B8C;&#x6574;&#x5B66;&#x53F7;">
+        <button id="lookup-button">&#x67E5;&#x8BE2;</button>
+      </div>
+      <p id="lookup-error" class="error" role="alert"></p>
+      <p class="hint">&#x516C;&#x5F00;&#x9875;&#x9762;&#x4E0D;&#x5B58;&#x653E;&#x5B66;&#x751F;&#x6570;&#x636E;&#x3002;&#x67E5;&#x8BE2;&#x9700;&#x8981;&#x540E;&#x7AEF;&#x63A5;&#x53E3;&#x8FD4;&#x56DE;&#x5339;&#x914D;&#x7684;&#x5355;&#x4EBA;&#x8BB0;&#x5F55;&#x3002;</p>
+    </section>
+
+    <section id="result-panel" class="panel table-panel hidden">
+      <div class="table-title">
+        <h2 id="result-heading">&#x672C;&#x4EBA;&#x8BB0;&#x5F55;</h2>
+        <p>&#x521D;&#x59CB; 100 &#x5206;&#xFF1B;&#x8FDF;&#x5230; 1 &#x6B21;&#x6263; 1 &#x5206;&#xFF1B;&#x7F3A;&#x5361; 1 &#x6B21;&#x6263; 2 &#x5206;&#x3002;</p>
+      </div>
+      <div class="table-wrap">
+        <table class="score-table"><tbody id="student-rows"></tbody></table>
+      </div>
+    </section>
+  </main>
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

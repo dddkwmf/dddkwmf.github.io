@@ -1,0 +1,4 @@
+﻿data/
+*.private.json
+payload.json
+meta.json
