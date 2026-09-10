@@ -1,1 +1,1 @@
-window.DASHBOARD_API_URL = "https://lightweight-situated-unknown-certificate.trycloudflare.com/api/student";
+window.DASHBOARD_API_URL = "https://advised-navy-litigation-miracle.trycloudflare.com/api/student";
