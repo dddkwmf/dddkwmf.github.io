@@ -71,14 +71,25 @@ async function lookup() {
   }
   $("lookup-button").disabled = true;
   $("lookup-button").textContent = "\u67e5\u8be2\u4e2d";
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
   try {
-    const response = await fetch(`${API_URL}?studentId=${encodeURIComponent(studentId)}`, { cache: "no-store" });
+    const response = await fetch(`${API_URL}?studentId=${encodeURIComponent(studentId)}`, { cache: "no-store", signal: controller.signal });
     if (response.status === 404) throw new Error("not-found");
+    if (response.status === 429) throw new Error("rate-limited");
     if (!response.ok) throw new Error("request-failed");
     renderStudent(await response.json());
   } catch (error) {
-    $("lookup-error").textContent = error.message === "not-found" ? "\u672a\u627e\u5230\u8be5\u5b66\u53f7\u7684\u8bb0\u5f55\u3002" : "\u67e5\u8be2\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u3002";
+    const messages = {
+      "not-found": "未找到该学号的记录。",
+      "rate-limited": "查询人数较多，请一分钟后重试。（E429）",
+      "request-failed": "查询服务暂时异常，请稍后重试。（ESERVICE）",
+    };
+    $("lookup-error").textContent = error.name === "AbortError"
+      ? "连接查询服务超时，请切换网络后重试。（ETIMEOUT）"
+      : messages[error.message] || "无法连接查询服务，请尝试关闭 VPN 或切换手机流量。（ENETWORK）";
   } finally {
+    clearTimeout(timeout);
     $("lookup-button").disabled = false;
     $("lookup-button").textContent = "\u67e5\u8be2";
   }
