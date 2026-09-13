@@ -1,1 +1,2 @@
-window.DASHBOARD_API_URL = "https://advised-navy-litigation-miracle.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://eligibility-marijuana-astrology-bestsellers.trycloudflare.com/api/student";
+
