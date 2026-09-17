@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://leave-survival-bicycle-comparison.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://suspected-reductions-jaguar-assistant.trycloudflare.com/api/student";
 
