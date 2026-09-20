@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://suspected-reductions-jaguar-assistant.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://backgrounds-king-martha-limits.trycloudflare.com/api/student";
 
