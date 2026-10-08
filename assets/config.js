@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://passenger-terrorism-circuit-importantly.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://appliances-exhibit-daughters-tape.trycloudflare.com/api/student";
 
