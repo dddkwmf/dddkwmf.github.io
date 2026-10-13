@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://appliances-exhibit-daughters-tape.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://mild-symantec-bufing-dish.trycloudflare.com/api/student";
 
