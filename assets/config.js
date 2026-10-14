@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://wrestling-substances-lexington-springfield.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://needs-mayor-acer-generally.trycloudflare.com/api/student";
 
