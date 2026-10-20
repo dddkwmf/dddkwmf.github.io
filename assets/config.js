@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://alfred-population-prince-apparel.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://issn-shaft-document-dont.trycloudflare.com/api/student";
 
