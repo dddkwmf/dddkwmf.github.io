@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://appreciation-exit-reader-carried.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://tickets-secret-lucy-under.trycloudflare.com/api/student";
 
