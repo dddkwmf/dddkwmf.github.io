@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://pottery-date-outdoors-wives.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://diffs-contrary-reality-circular.trycloudflare.com/api/student";
 
