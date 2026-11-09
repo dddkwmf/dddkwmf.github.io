@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://relationships-chen-drinking-mitchell.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://templates-archive-researchers-finance.trycloudflare.com/api/student";
 
