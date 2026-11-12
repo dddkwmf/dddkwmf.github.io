@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://strengthening-divorce-undertaken-ceramic.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://classified-administrators-bottom-labels.trycloudflare.com/api/student";
 
