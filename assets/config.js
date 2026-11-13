@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://classified-administrators-bottom-labels.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://recommended-structure-lasting-ram.trycloudflare.com/api/student";
 
