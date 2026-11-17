@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://sophisticated-athletes-sierra-leave.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://experiments-hybrid-intend-scale.trycloudflare.com/api/student";
 
