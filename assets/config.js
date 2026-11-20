@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://wav-station-lotus-spectacular.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://reflected-behavioral-adapted-ivory.trycloudflare.com/api/student";
 
