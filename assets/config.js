@@ -1,2 +1,2 @@
-﻿window.DASHBOARD_API_URL = "https://gauge-interested-lights-undefined.trycloudflare.com/api/student";
+﻿window.DASHBOARD_API_URL = "https://samba-shares-specialists-identify.trycloudflare.com/api/student";
 
